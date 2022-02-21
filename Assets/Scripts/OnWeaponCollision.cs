@@ -34,9 +34,11 @@ public class OnWeaponCollision : MonoBehaviour
         if (!weaponPicked)
             weaponPicked = true;
 
-        if (collider.gameObject.GetComponent<WeaponDisplay>() != null)
+        WeaponDisplay weaponDisplay = collider.gameObject.GetComponent<WeaponDisplay>();
+
+        if (weaponDisplay != null)
         {
-            currentWeapon = collider.gameObject.GetComponent<WeaponDisplay>().weapon;
+            currentWeapon = weaponDisplay.weapon;
             playerShoot.isShootAble = true;
 
             weaponName.text = currentWeapon.weaponName;
