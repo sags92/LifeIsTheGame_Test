@@ -10,7 +10,6 @@ public class BulletBlackHole : MonoBehaviour
             Rigidbody targetRigidBody = targetObject.GetComponent<Rigidbody>();
             Vector3 pullDirection = gameObject.transform.position - targetObject.transform.position;
             targetRigidBody.AddForce(pullDirection.normalized * pullForce, ForceMode.Force);
-            print(pullDirection);
         }
     }
 }
