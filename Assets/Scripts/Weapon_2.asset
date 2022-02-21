@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2f338d653da68545bc4cd337155c66a, type: 3}
+  m_Name: Weapon_2
+  m_EditorClassIdentifier: 
+  weaponName: BlackHole
+  force: 5
+  shootSpeed: 1
+  ammoSize: 5
+  reloadTime: 4
+  bulletType: {fileID: 5353896474860946904, guid: 07187224b1247aa4184b4920bc9b5d6e,
+    type: 3}
+  gunMaterial: {fileID: 2100000, guid: 2a8ac60f2d6b56540903efd4a9c4594e, type: 2}
